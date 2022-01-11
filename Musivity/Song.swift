@@ -17,10 +17,10 @@ struct Song: Identifiable {
     var isBehind: Bool = true
     
     static let songs = [
-        Song(name: "Red", artist: "Taylor Swift", image: "ts", audio: "hi"),
-        Song(name: "betty", artist: "Taylor Swift", image: "ts", audio: "hi"),
-        Song(name: "august", artist: "Taylor Swift", image: "ts", audio: "hi"),
-        Song(name: "invisible string", artist: "Taylor Swift", image: "ts", audio: "hi"),
-        Song(name: "Getaway Car", artist: "Taylor Swift", image: "ts", audio: "hi", isBehind: false)
+        Song(name: "Going Higher", artist: "Taylor Swift", image: "goinghigher", audio: "bensound-goinghigher"),
+        Song(name: "dubstep", artist: "Taylor Swift", image: "dubstep", audio: "bensound-dubstep"),
+        Song(name: "tomorrow", artist: "Taylor Swift", image: "tomorrow", audio: "bensound-tomorrow"),
+        Song(name: "Ukelele", artist: "Taylor Swift", image: "ukulele", audio: "bensound-ukulele"),
+        Song(name: "Happy Rock", artist: "Taylor Swift", image: "happyrock", audio: "bensound-happyrock", isBehind: false)
     ]
 }

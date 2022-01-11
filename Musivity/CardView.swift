@@ -61,33 +61,39 @@ struct CardView: View {
                             x: proxy.frame(in: .local).minX + 75,
                             y: proxy.frame(in: .local).maxY - 50
                         )
-                        
-                        Rectangle()
-                            .overlay(Text("👎"))
+                       // print(proxy.size)
+                        Image("face-sad-cry")
+                            .opacity(degrees < 0 ? 1 : 0)
+                            .frame(width: 50, height: 50)
+                            .position(
+                                x: 100,
+                                y: proxy.frame(in: .local).midY
+                            )
+                            .scaleEffect(isDragging ? 0.2 : 0.1)
+                            //.animation(.default)
+                        /*Rectangle()
+                            .overlay(Image("face-sad-cry"))
                             .foregroundColor(.red)
                             .opacity(degrees < 0 ? 1 : 0)
                             .frame(width: 50, height: 50)
                             .cornerRadius(25)
                             .position(
                                 x: proxy.frame(in:
-                                .local).midX + 25,
+                                .local).midX + 75,
                                 y: proxy.frame(in: .local).midY
                             )
                             .scaleEffect(isDragging ? 2 : 1)
-                            .animation(.default)
+                            .animation(.default)*/
                         
-                        Rectangle()
-                            .overlay(Text("👍"))
-                            .foregroundColor(.green)
+                        Image("face-grin-beam")
                             .opacity(degrees > 0 ? 1 : 0)
                             .frame(width: 50, height: 50)
                             .cornerRadius(25)
                             .position(
-                                x: proxy.frame(in:
-                                .local).midX + 100,
+                                x: proxy.size.width/2,
                                 y: proxy.frame(in: .local).midY
                             )
-                            .scaleEffect(isDragging ? 2 : 1)
+                            .scaleEffect(isDragging ? 0.2 : 0.1)
                             .animation(.default)
                     }
                 }
@@ -104,6 +110,11 @@ struct CardView: View {
             .offset(x: translation.width, y: 0)
             .rotationEffect(.degrees(degrees))
             .scaleEffect(song.isBehind ? 0.9 : 1)
+            .onAppear{
+                if !song.isBehind {
+                    MusicPlayer.shared.startBackgroundMusic(filename: song.audio)
+                }
+            }
             .gesture(dragGesture)
             .animation(.interactiveSpring())
     }
