@@ -16,8 +16,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        print("in body")
-        return GeometryReader { proxy in
+        GeometryReader { proxy in
             ZStack {
                 ForEach(Array(songs.enumerated()), id:
                             \.offset) { index, song in
@@ -27,8 +26,10 @@ struct ContentView: View {
                         index: index
                     ) { (index) in
                         songs.remove(at: index)
+                        MusicPlayer.shared.stopBackgroundMusic()
                         if index > 0 {
                             songs[index - 1].isBehind = false
+                            MusicPlayer.shared.startBackgroundMusic(filename: songs[index - 1].audio)
                         }
                     }
                         
@@ -36,13 +37,7 @@ struct ContentView: View {
                 Button("reload", action:{
                     songs.append(contentsOf: Song.songs)
                 }).position(x: proxy.frame(in: .local).midX)
-                    .onAppear {
-                        MusicPlayer.shared.startBackgroundMusic(filename: "bensound-happyrock")
-                        let sound = Bundle.main.path(forResource: "bensound-happyrock", ofType: "mp3")
-                                    self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-                        print("hello")
-                    }
-                        //MusicPlayer.shared.startBackgroundMusic(filename: "bensound-happyrock")
+
                     
 
             }
