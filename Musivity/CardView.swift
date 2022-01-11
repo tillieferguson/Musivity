@@ -70,7 +70,7 @@ struct CardView: View {
                             .cornerRadius(25)
                             .position(
                                 x: proxy.frame(in:
-                                .local).midX,
+                                .local).midX + 25,
                                 y: proxy.frame(in: .local).midY
                             )
                             .scaleEffect(isDragging ? 2 : 1)
@@ -84,7 +84,7 @@ struct CardView: View {
                             .cornerRadius(25)
                             .position(
                                 x: proxy.frame(in:
-                                .local).midX,
+                                .local).midX + 100,
                                 y: proxy.frame(in: .local).midY
                             )
                             .scaleEffect(isDragging ? 2 : 1)
