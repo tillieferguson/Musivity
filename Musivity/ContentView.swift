@@ -7,13 +7,17 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
     
     @State var songs = Song.songs
+    @State var audioPlayer: AVAudioPlayer!
     
     var body: some View {
-        GeometryReader { proxy in
+        
+        print("in body")
+        return GeometryReader { proxy in
             ZStack {
                 ForEach(Array(songs.enumerated()), id:
                             \.offset) { index, song in
@@ -32,7 +36,17 @@ struct ContentView: View {
                 Button("reload", action:{
                     songs.append(contentsOf: Song.songs)
                 }).position(x: proxy.frame(in: .local).midX)
+                    .onAppear {
+                        MusicPlayer.shared.startBackgroundMusic(filename: "bensound-happyrock")
+                        let sound = Bundle.main.path(forResource: "bensound-happyrock", ofType: "mp3")
+                                    self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+                        print("hello")
+                    }
+                        //MusicPlayer.shared.startBackgroundMusic(filename: "bensound-happyrock")
+                    
+
             }
+                        
         }
     }
 }
