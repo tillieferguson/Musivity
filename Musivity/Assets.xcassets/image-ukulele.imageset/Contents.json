@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "image-ukulele.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "image-ukulele.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

@@ -61,15 +61,16 @@ struct CardView: View {
                             x: proxy.frame(in: .local).minX + 75,
                             y: proxy.frame(in: .local).maxY - 50
                         )
+                       // print(proxy.size)
                         Image("face-sad-cry")
                             .opacity(degrees < 0 ? 1 : 0)
                             .frame(width: 50, height: 50)
                             .position(
-                                x: proxy.size.width/2,
+                                x: 100,
                                 y: proxy.frame(in: .local).midY
                             )
                             .scaleEffect(isDragging ? 0.2 : 0.1)
-                            .animation(.default)
+                            //.animation(.default)
                         /*Rectangle()
                             .overlay(Image("face-sad-cry"))
                             .foregroundColor(.red)
