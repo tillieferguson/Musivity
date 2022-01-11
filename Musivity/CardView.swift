@@ -37,6 +37,8 @@ struct CardView: View {
                     onRemove?(index)
                 }
             }
+        
+        
 
         Rectangle()
             .overlay(
