@@ -1,10 +1,4 @@
 #  Music + Productivity = Musivity
-A Swift App to curate your productivity with swipeable music. Work smarter, not harder.
-
-All music used in this proof of concept were pulled from bensounds.com
-We built the initial swiping functionality based on this [tutorial from Gary Tokman](https://www.youtube.com/watch?v=YjQj3KAkkIM&t=967s)
-
-#  Music + Productivity = Musivity
 
 Created by Seth Keim (sethrkeim@gmail.com) and Tillie Ferguson (tillieferguson26@gmail.com)
 
@@ -17,11 +11,11 @@ Created by Seth Keim (sethrkeim@gmail.com) and Tillie Ferguson (tillieferguson26
 
 A Swift App to curate your productivity with swipeable music. Using a swipeable user interface, users can demonstrate there musical preferences
 without having to interpret them directly - we'll do it for you! The end experience is hours of passive music curated exactly
-to what you want to hear. No more excuse to change your playlist while you're working!
+to what you want to hear. No more excuse to change your playlist while you're working! 
 
 ## Protoype Summary
 
-This proof of concept prototype includes the basic swiping and music playing functionality. The machine learning aspect is not implemented.
+This proof of concept prototype includes the basic swiping and music playing functionality. The machine learning aspect is not implemented. We built the initial swiping functionality based on this [tutorial from Gary Tokman](https://www.youtube.com/watch?v=YjQj3KAkkIM&t=967s)
 
 ## Presentation
 
