@@ -28,4 +28,4 @@ implementing the machine learning backend to curate the ultimate listening exper
 
 ## License
 
-*This repository includes an [unlicense](http://unlicense.org/) statement though you may want [to choose a different license](https://choosealicense.com/).*
+*This repository includes a GNU General Public License v3.0(https://www.gnu.org/licenses/gpl-3.0.html) statement.
