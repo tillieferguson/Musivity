@@ -35,7 +35,7 @@ struct ContentView: View {
                         if index > 0 {
                             songs[index - 1].isBehind = false
                             MusicPlayer.shared.startBackgroundMusic(filename: songs[index - 1].audio)
-                        }
+                        } 
                     }
                         
                 }
