@@ -38,81 +38,90 @@ struct CardView: View {
                 }
             }
         
-        
+        ZStack {
+            
+            Color.green
+                .opacity(degrees > 0 ? (translation.width/250) : 0)
+                .ignoresSafeArea()
 
-        Rectangle()
-            .overlay(
-                GeometryReader { proxy in
-                    ZStack {
-                        Image(song.image)
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .clipped()
-                        VStack(alignment: .leading) {
-                            Rectangle()
-                                .frame(width: 150, height: 60)
-                                .cornerRadius(10)
-                                .overlay( Text(song.name + "\n" + song.artist)
-                                            .foregroundColor(.black)
-                                            .fontWeight(.bold)
+            Color.red
+                .opacity(degrees < 0 ? (-translation.width/250) : 0)
+                .ignoresSafeArea()
+            
+            Rectangle()
+                .overlay(
+                    GeometryReader { proxy in
+                        ZStack {
+                            Image(song.image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .clipped()
+                            VStack(alignment: .leading) {
+                                Rectangle()
+                                    .frame(width: 150, height: 60)
+                                    .cornerRadius(10)
+                                    .overlay( Text(song.name + "\n" + song.artist)
+                                                .foregroundColor(.black)
+                                                .fontWeight(.bold)
+                                    )
+                                    .foregroundColor(.white)
+                            
+                            }
+                            .padding(10)
+                            .position(
+                                x: proxy.frame(in: .local).minX + 100,
+                                y: proxy.frame(in: .local).maxY - 50
+                            )
+                            
+                           
+                            
+                            Image("face-frown-regular")
+                                .opacity(degrees < 0 ? 1 : 0)
+                                .frame(width: 50, height: 50)
+                                .position(
+                                    x: proxy.frame(in: .local).midX - 400,
+                                    y: proxy.frame(in: .local).midY
                                 )
-                                .foregroundColor(.white)
-                        
+                                .foregroundColor(.red)
+                                .accentColor(.red)
+                                .scaleEffect(isDragging ? 0.2 : 0.1)
+                                .animation(.default)
+                            
+                            
+                            Image("face-laugh-beam-regular")
+                                .opacity(degrees > 0 ? 1 : 0)
+                                .frame(width: 50, height: 50)
+                                .position(
+                                    x: proxy.frame(in: .local).midX + 50,
+                                    y: proxy.frame(in: .local).midY
+                                )
+                                .foregroundColor(.green)
+                                .accentColor(.red)
+                                .scaleEffect(isDragging ? 0.2 : 0.1)
+                                .animation(.default)
                         }
-                        .padding(10)
-                        .position(
-                            x: proxy.frame(in: .local).minX + 100,
-                            y: proxy.frame(in: .local).maxY - 50
-                        )
-                        
-                       
-                        
-                        Image("face-frown-regular")
-                            .opacity(degrees < 0 ? 1 : 0)
-                            .frame(width: 50, height: 50)
-                            .position(
-                                x: proxy.frame(in: .local).midX - 400,
-                                y: proxy.frame(in: .local).midY
-                            )
-                            .foregroundColor(.red)
-                            .accentColor(.red)
-                            .scaleEffect(isDragging ? 0.2 : 0.1)
-                            .animation(.default)
-                        
-                        
-                        Image("face-laugh-beam-regular")
-                            .opacity(degrees > 0 ? 1 : 0)
-                            .frame(width: 50, height: 50)
-                            .position(
-                                x: proxy.frame(in: .local).midX + 50,
-                                y: proxy.frame(in: .local).midY
-                            )
-                            .foregroundColor(.green)
-                            .accentColor(.red)
-                            .scaleEffect(isDragging ? 0.2 : 0.1)
-                            .animation(.default)
+                    }
+                )
+                .cornerRadius(10)
+                .frame(
+                    maxWidth: proxy.size.width - 28,
+                    maxHeight: proxy.size.height * 0.8
+                )
+                .position(
+                    x: proxy.frame(in: .global).midX,
+                    y: proxy.frame(in: .local).midY
+                )
+                .offset(x: translation.width, y: 0)
+                .rotationEffect(.degrees(degrees))
+                .scaleEffect(song.isBehind ? 0.9 : 1)
+                .onAppear{
+                    if !song.isBehind {
+                        MusicPlayer.shared.startBackgroundMusic(filename: song.audio)
                     }
                 }
-            )
-            .cornerRadius(10)
-            .frame(
-                maxWidth: proxy.size.width - 28,
-                maxHeight: proxy.size.height * 0.8
-            )
-            .position(
-                x: proxy.frame(in: .global).midX,
-                y: proxy.frame(in: .local).midY
-            )
-            .offset(x: translation.width, y: 0)
-            .rotationEffect(.degrees(degrees))
-            .scaleEffect(song.isBehind ? 0.9 : 1)
-            .onAppear{
-                if !song.isBehind {
-                    MusicPlayer.shared.startBackgroundMusic(filename: song.audio)
-                }
-            }
-            .gesture(dragGesture)
-            .animation(.interactiveSpring())
+                .gesture(dragGesture)
+                .animation(.interactiveSpring())
+        }
     }
 }
 
