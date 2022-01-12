@@ -17,6 +17,11 @@ struct ContentView: View {
     var body: some View {
         
         GeometryReader { proxy in
+            HStack(alignment: .top) {
+                Image("brainicon")
+                    .resizable()
+                    .frame(width: 64, height: 64)
+            }
             ZStack {
                 ForEach(Array(songs.enumerated()), id:
                             \.offset) { index, song in
@@ -34,9 +39,11 @@ struct ContentView: View {
                     }
                         
                 }
-                Button("reload", action:{
+                /*
+                 Button("reload", action:{
                     songs.append(contentsOf: Song.songs)
                 }).position(x: proxy.frame(in: .local).midX)
+                 */
 
                     
 

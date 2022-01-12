@@ -61,7 +61,8 @@ struct CardView: View {
                             x: proxy.frame(in: .local).minX + 75,
                             y: proxy.frame(in: .local).maxY - 50
                         )
-                       // print(proxy.size)
+                        
+                       
                         
                         Image("face-frown-regular")
                             .opacity(degrees < 0 ? 1 : 0)
@@ -97,7 +98,7 @@ struct CardView: View {
             )
             .position(
                 x: proxy.frame(in: .global).midX,
-                y: proxy.frame(in: .local).midY - 30
+                y: proxy.frame(in: .local).midY
             )
             .offset(x: translation.width, y: 0)
             .rotationEffect(.degrees(degrees))
