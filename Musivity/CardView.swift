@@ -49,16 +49,19 @@ struct CardView: View {
                             .aspectRatio(contentMode: .fill)
                             .clipped()
                         VStack(alignment: .leading) {
-                            Text(song.name)
+                            Rectangle()
+                                .frame(width: 150, height: 60)
+                                .cornerRadius(10)
+                                .overlay( Text(song.name + "\n" + song.artist)
+                                            .foregroundColor(.black)
+                                            .fontWeight(.bold)
+                                )
                                 .foregroundColor(.white)
-                                .fontWeight(.bold)
-                            Text(song.artist)
-                                .foregroundColor(.white)
-                                .fontWeight(.bold)
                         
                         }
+                        .padding(10)
                         .position(
-                            x: proxy.frame(in: .local).minX + 75,
+                            x: proxy.frame(in: .local).minX + 100,
                             y: proxy.frame(in: .local).maxY - 50
                         )
                         
