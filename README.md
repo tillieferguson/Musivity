@@ -23,9 +23,9 @@ The presentation is available in the repo as presentation.pdf
 
 ## Next Steps
 
-The UI is mostly implemented, the next major step is using real music (we used royalty-free music from [Ben Sounds](bensounds.com), 
+The UI is mostly implemented, the next major step is using real music (we used royalty-free music from [Ben Sounds](bensounds.com)), 
 implementing the machine learning backend to curate the ultimate listening experience.
 
 ## License
 
-*This repository includes a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) statement.
+This repository includes a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) statement.
