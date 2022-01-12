@@ -39,11 +39,6 @@ struct ContentView: View {
                     }
                         
                 }
-                /*
-                 Button("reload", action:{
-                    songs.append(contentsOf: Song.songs)
-                }).position(x: proxy.frame(in: .local).midX)
-                 */
 
                     
 
