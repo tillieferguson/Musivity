@@ -62,37 +62,29 @@ struct CardView: View {
                             y: proxy.frame(in: .local).maxY - 50
                         )
                        // print(proxy.size)
-                        Image("face-sad-cry")
-                            .opacity(degrees < 0 ? 1 : 0)
-                            .frame(width: 50, height: 50)
-                            .position(
-                                x: 100,
-                                y: proxy.frame(in: .local).midY
-                            )
-                            .scaleEffect(isDragging ? 0.2 : 0.1)
-                            //.animation(.default)
-                        /*Rectangle()
-                            .overlay(Image("face-sad-cry"))
-                            .foregroundColor(.red)
-                            .opacity(degrees < 0 ? 1 : 0)
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(25)
-                            .position(
-                                x: proxy.frame(in:
-                                .local).midX + 75,
-                                y: proxy.frame(in: .local).midY
-                            )
-                            .scaleEffect(isDragging ? 2 : 1)
-                            .animation(.default)*/
                         
-                        Image("face-grin-beam")
+                        Image("face-frown-regular")
+                            .opacity(degrees < 0 ? 1 : 0)
+                            .frame(width: 50, height: 50)
+                            .position(
+                                x: proxy.frame(in: .local).midX - 400,
+                                y: proxy.frame(in: .local).midY
+                            )
+                            .foregroundColor(.red)
+                            .accentColor(.red)
+                            .scaleEffect(isDragging ? 0.2 : 0.1)
+                            .animation(.default)
+                        
+                        
+                        Image("face-laugh-beam-regular")
                             .opacity(degrees > 0 ? 1 : 0)
                             .frame(width: 50, height: 50)
-                            .cornerRadius(25)
                             .position(
-                                x: proxy.size.width/2,
+                                x: proxy.frame(in: .local).midX + 50,
                                 y: proxy.frame(in: .local).midY
                             )
+                            .foregroundColor(.green)
+                            .accentColor(.red)
                             .scaleEffect(isDragging ? 0.2 : 0.1)
                             .animation(.default)
                     }
