@@ -15,6 +15,44 @@
 		20F2CD07278DE17F00128598 /* MusivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2CD06278DE17F00128598 /* MusivityUITests.swift */; };
 		20F2CD19278DE37100128598 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2CD18278DE37100128598 /* CardView.swift */; };
 		20F2CD29278DE46400128598 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2CD28278DE46400128598 /* Song.swift */; };
+		5D15DA39278DFAB500D2018C /* bensound-creativeminds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA2E278DFAB400D2018C /* bensound-creativeminds.mp3 */; };
+		5D15DA3A278DFAB500D2018C /* bensound-happyrock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA2F278DFAB400D2018C /* bensound-happyrock.mp3 */; };
+		5D15DA3B278DFAB500D2018C /* bensound-anewbeginning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA30278DFAB400D2018C /* bensound-anewbeginning.mp3 */; };
+		5D15DA3C278DFAB500D2018C /* bensound-goinghigher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA31278DFAB400D2018C /* bensound-goinghigher.mp3 */; };
+		5D15DA3D278DFAB500D2018C /* bensound-sunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA32278DFAB400D2018C /* bensound-sunny.mp3 */; };
+		5D15DA3E278DFAB500D2018C /* bensound-betterdays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA33278DFAB500D2018C /* bensound-betterdays.mp3 */; };
+		5D15DA3F278DFAB500D2018C /* bensound-ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA34278DFAB500D2018C /* bensound-ukulele.mp3 */; };
+		5D15DA40278DFAB500D2018C /* bensound-jazzyfrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA35278DFAB500D2018C /* bensound-jazzyfrenchy.mp3 */; };
+		5D15DA41278DFAB500D2018C /* bensound-littleidea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA36278DFAB500D2018C /* bensound-littleidea.mp3 */; };
+		5D15DA42278DFAB500D2018C /* bensound-tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA37278DFAB500D2018C /* bensound-tomorrow.mp3 */; };
+		5D15DA43278DFAB500D2018C /* bensound-dubstep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D15DA38278DFAB500D2018C /* bensound-dubstep.mp3 */; };
+		5D399B1A278E24790059AF78 /* goinghigher.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B19278E24790059AF78 /* goinghigher.png */; };
+		5D399B1C278E250D0059AF78 /* tomorrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B1B278E250D0059AF78 /* tomorrow.png */; };
+		5D399B1E278E26C20059AF78 /* face-laugh-beam-regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B1D278E26C20059AF78 /* face-laugh-beam-regular.svg */; };
+		5D399B20278E26E80059AF78 /* face-sad-cry-regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B1F278E26E80059AF78 /* face-sad-cry-regular.svg */; };
+		5D399B22278E2A790059AF78 /* ukulele.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B21278E2A790059AF78 /* ukulele.png */; };
+		5D399B24278E2B060059AF78 /* face-frown-solid.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B23278E2B060059AF78 /* face-frown-solid.svg */; };
+		5D399B26278E2C930059AF78 /* face-frown-regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B25278E2C930059AF78 /* face-frown-regular.svg */; };
+		5D399B28278E694F0059AF78 /* brainicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D399B27278E694F0059AF78 /* brainicon.png */; };
+		5D50D6B3278DECDB0005BB41 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50D6B2278DECDB0005BB41 /* MusicPlayer.swift */; };
+		5DBED8AC278F57A50059D088 /* bensound-allthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8AB278F57A50059D088 /* bensound-allthat.mp3 */; };
+		5DBED8B1278F57B20059D088 /* bensound-buddy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8AD278F57B20059D088 /* bensound-buddy.mp3 */; };
+		5DBED8B2278F57B20059D088 /* bensound-beyondtheline.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8AE278F57B20059D088 /* bensound-beyondtheline.mp3 */; };
+		5DBED8B3278F57B20059D088 /* bensound-creativeminds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8AF278F57B20059D088 /* bensound-creativeminds.mp3 */; };
+		5DBED8B4278F57B20059D088 /* bensound-betterdays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8B0278F57B20059D088 /* bensound-betterdays.mp3 */; };
+		5DBED8B6278F57B80059D088 /* bensound-happiness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8B5278F57B80059D088 /* bensound-happiness.mp3 */; };
+		5DBED8BF278F57C80059D088 /* bensound-littleidea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8B7278F57C80059D088 /* bensound-littleidea.mp3 */; };
+		5DBED8C0278F57C80059D088 /* bensound-jazzyfrenchy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8B8278F57C80059D088 /* bensound-jazzyfrenchy.mp3 */; };
+		5DBED8C1278F57C80059D088 /* bensound-sweet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8B9278F57C80059D088 /* bensound-sweet.mp3 */; };
+		5DBED8C2278F57C80059D088 /* bensound-theelevatorbossanova.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8BA278F57C80059D088 /* bensound-theelevatorbossanova.mp3 */; };
+		5DBED8C3278F57C80059D088 /* bensound-hipjazz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8BB278F57C80059D088 /* bensound-hipjazz.mp3 */; };
+		5DBED8C4278F57C80059D088 /* bensound-sunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8BC278F57C80059D088 /* bensound-sunny.mp3 */; };
+		5DBED8C5278F57C80059D088 /* bensound-tenderness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8BD278F57C80059D088 /* bensound-tenderness.mp3 */; };
+		5DBED8C6278F57C80059D088 /* bensound-retrosoul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DBED8BE278F57C80059D088 /* bensound-retrosoul.mp3 */; };
+		5DD5B08D278F3A7C0090E9A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD5B08C278F3A7C0090E9A1 /* LaunchScreen.storyboard */; };
+		5DFC5518278E774600C3BF56 /* Brainicon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC5517278E774600C3BF56 /* Brainicon.svg */; };
+		5DFC551A278F283200C3BF56 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC5519278F283200C3BF56 /* sunny.png */; };
+		5DFC551E278F38AC00C3BF56 /* nameandicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFC551D278F38AC00C3BF56 /* nameandicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +88,44 @@
 		20F2CD17278DE29200128598 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		20F2CD18278DE37100128598 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		20F2CD28278DE46400128598 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		5D15DA2E278DFAB400D2018C /* bensound-creativeminds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-creativeminds.mp3"; sourceTree = "<group>"; };
+		5D15DA2F278DFAB400D2018C /* bensound-happyrock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-happyrock.mp3"; sourceTree = "<group>"; };
+		5D15DA30278DFAB400D2018C /* bensound-anewbeginning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-anewbeginning.mp3"; sourceTree = "<group>"; };
+		5D15DA31278DFAB400D2018C /* bensound-goinghigher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-goinghigher.mp3"; sourceTree = "<group>"; };
+		5D15DA32278DFAB400D2018C /* bensound-sunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-sunny.mp3"; sourceTree = "<group>"; };
+		5D15DA33278DFAB500D2018C /* bensound-betterdays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-betterdays.mp3"; sourceTree = "<group>"; };
+		5D15DA34278DFAB500D2018C /* bensound-ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-ukulele.mp3"; sourceTree = "<group>"; };
+		5D15DA35278DFAB500D2018C /* bensound-jazzyfrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-jazzyfrenchy.mp3"; sourceTree = "<group>"; };
+		5D15DA36278DFAB500D2018C /* bensound-littleidea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-littleidea.mp3"; sourceTree = "<group>"; };
+		5D15DA37278DFAB500D2018C /* bensound-tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-tomorrow.mp3"; sourceTree = "<group>"; };
+		5D15DA38278DFAB500D2018C /* bensound-dubstep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-dubstep.mp3"; sourceTree = "<group>"; };
+		5D399B19278E24790059AF78 /* goinghigher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goinghigher.png; sourceTree = "<group>"; };
+		5D399B1B278E250D0059AF78 /* tomorrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tomorrow.png; path = Assets.xcassets/tomorrow.png; sourceTree = "<group>"; };
+		5D399B1D278E26C20059AF78 /* face-laugh-beam-regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "face-laugh-beam-regular.svg"; sourceTree = "<group>"; };
+		5D399B1F278E26E80059AF78 /* face-sad-cry-regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "face-sad-cry-regular.svg"; sourceTree = "<group>"; };
+		5D399B21278E2A790059AF78 /* ukulele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ukulele.png; sourceTree = "<group>"; };
+		5D399B23278E2B060059AF78 /* face-frown-solid.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "face-frown-solid.svg"; sourceTree = "<group>"; };
+		5D399B25278E2C930059AF78 /* face-frown-regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "face-frown-regular.svg"; sourceTree = "<group>"; };
+		5D399B27278E694F0059AF78 /* brainicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brainicon.png; path = icons/brainicon.png; sourceTree = SOURCE_ROOT; };
+		5D50D6B2278DECDB0005BB41 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		5DBED8AB278F57A50059D088 /* bensound-allthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-allthat.mp3"; sourceTree = "<group>"; };
+		5DBED8AD278F57B20059D088 /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-buddy.mp3"; sourceTree = "<group>"; };
+		5DBED8AE278F57B20059D088 /* bensound-beyondtheline.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-beyondtheline.mp3"; sourceTree = "<group>"; };
+		5DBED8AF278F57B20059D088 /* bensound-creativeminds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-creativeminds.mp3"; sourceTree = "<group>"; };
+		5DBED8B0278F57B20059D088 /* bensound-betterdays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-betterdays.mp3"; sourceTree = "<group>"; };
+		5DBED8B5278F57B80059D088 /* bensound-happiness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-happiness.mp3"; sourceTree = "<group>"; };
+		5DBED8B7278F57C80059D088 /* bensound-littleidea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-littleidea.mp3"; sourceTree = "<group>"; };
+		5DBED8B8278F57C80059D088 /* bensound-jazzyfrenchy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-jazzyfrenchy.mp3"; sourceTree = "<group>"; };
+		5DBED8B9278F57C80059D088 /* bensound-sweet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-sweet.mp3"; sourceTree = "<group>"; };
+		5DBED8BA278F57C80059D088 /* bensound-theelevatorbossanova.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-theelevatorbossanova.mp3"; sourceTree = "<group>"; };
+		5DBED8BB278F57C80059D088 /* bensound-hipjazz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-hipjazz.mp3"; sourceTree = "<group>"; };
+		5DBED8BC278F57C80059D088 /* bensound-sunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-sunny.mp3"; sourceTree = "<group>"; };
+		5DBED8BD278F57C80059D088 /* bensound-tenderness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-tenderness.mp3"; sourceTree = "<group>"; };
+		5DBED8BE278F57C80059D088 /* bensound-retrosoul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-retrosoul.mp3"; sourceTree = "<group>"; };
+		5DD5B08C278F3A7C0090E9A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DFC5517278E774600C3BF56 /* Brainicon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Brainicon.svg; path = ../../Brainicon.svg; sourceTree = "<group>"; };
+		5DFC5519278F283200C3BF56 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		5DFC551D278F38AC00C3BF56 /* nameandicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nameandicon.png; path = icons/nameandicon.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +179,48 @@
 			children = (
 				20F2CCE9278DE17500128598 /* MusivityApp.swift */,
 				20F2CCEB278DE17500128598 /* ContentView.swift */,
+				5D50D6B2278DECDB0005BB41 /* MusicPlayer.swift */,
+				5D15DA30278DFAB400D2018C /* bensound-anewbeginning.mp3 */,
+				5D15DA33278DFAB500D2018C /* bensound-betterdays.mp3 */,
+				5D15DA2E278DFAB400D2018C /* bensound-creativeminds.mp3 */,
+				5D15DA38278DFAB500D2018C /* bensound-dubstep.mp3 */,
+				5D15DA31278DFAB400D2018C /* bensound-goinghigher.mp3 */,
+				5D15DA2F278DFAB400D2018C /* bensound-happyrock.mp3 */,
+				5D399B19278E24790059AF78 /* goinghigher.png */,
+				5D399B23278E2B060059AF78 /* face-frown-solid.svg */,
+				5D399B1D278E26C20059AF78 /* face-laugh-beam-regular.svg */,
+				5DFC5517278E774600C3BF56 /* Brainicon.svg */,
+				5DBED8BB278F57C80059D088 /* bensound-hipjazz.mp3 */,
+				5D15DA35278DFAB500D2018C /* bensound-jazzyfrenchy.mp3 */,
+				5D399B1B278E250D0059AF78 /* tomorrow.png */,
+				5D399B21278E2A790059AF78 /* ukulele.png */,
+				5DBED8B8278F57C80059D088 /* bensound-jazzyfrenchy.mp3 */,
+				5D15DA36278DFAB500D2018C /* bensound-littleidea.mp3 */,
+				5D399B27278E694F0059AF78 /* brainicon.png */,
+				5DBED8B7278F57C80059D088 /* bensound-littleidea.mp3 */,
+				5DBED8BE278F57C80059D088 /* bensound-retrosoul.mp3 */,
+				5DBED8BC278F57C80059D088 /* bensound-sunny.mp3 */,
+				5DBED8B9278F57C80059D088 /* bensound-sweet.mp3 */,
+				5DBED8BD278F57C80059D088 /* bensound-tenderness.mp3 */,
+				5DBED8BA278F57C80059D088 /* bensound-theelevatorbossanova.mp3 */,
+				5DBED8AB278F57A50059D088 /* bensound-allthat.mp3 */,
+				5D399B25278E2C930059AF78 /* face-frown-regular.svg */,
+				5DBED8B5278F57B80059D088 /* bensound-happiness.mp3 */,
+				5D15DA32278DFAB400D2018C /* bensound-sunny.mp3 */,
+				5DFC5519278F283200C3BF56 /* sunny.png */,
+				5DBED8B0278F57B20059D088 /* bensound-betterdays.mp3 */,
+				5DBED8AE278F57B20059D088 /* bensound-beyondtheline.mp3 */,
+				5DBED8AD278F57B20059D088 /* bensound-buddy.mp3 */,
+				5DBED8AF278F57B20059D088 /* bensound-creativeminds.mp3 */,
+				5DFC551D278F38AC00C3BF56 /* nameandicon.png */,
+				5D15DA37278DFAB500D2018C /* bensound-tomorrow.mp3 */,
+				5D15DA34278DFAB500D2018C /* bensound-ukulele.mp3 */,
 				20F2CCED278DE17F00128598 /* Assets.xcassets */,
 				20F2CCF2278DE17F00128598 /* Info.plist */,
+				5DD5B08C278F3A7C0090E9A1 /* LaunchScreen.storyboard */,
 				20F2CCEF278DE17F00128598 /* Preview Content */,
 				20F2CD18278DE37100128598 /* CardView.swift */,
+				5D399B1F278E26E80059AF78 /* face-sad-cry-regular.svg */,
 				20F2CD28278DE46400128598 /* Song.swift */,
 			);
 			path = Musivity;
@@ -241,8 +355,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D15DA3A278DFAB500D2018C /* bensound-happyrock.mp3 in Resources */,
+				5DBED8C3278F57C80059D088 /* bensound-hipjazz.mp3 in Resources */,
+				5DBED8C6278F57C80059D088 /* bensound-retrosoul.mp3 in Resources */,
+				5DBED8C0278F57C80059D088 /* bensound-jazzyfrenchy.mp3 in Resources */,
+				5DBED8BF278F57C80059D088 /* bensound-littleidea.mp3 in Resources */,
+				5D15DA41278DFAB500D2018C /* bensound-littleidea.mp3 in Resources */,
+				5D399B1E278E26C20059AF78 /* face-laugh-beam-regular.svg in Resources */,
 				20F2CCF1278DE17F00128598 /* Preview Assets.xcassets in Resources */,
+				5DBED8B3278F57B20059D088 /* bensound-creativeminds.mp3 in Resources */,
+				5DBED8C4278F57C80059D088 /* bensound-sunny.mp3 in Resources */,
+				5D15DA3F278DFAB500D2018C /* bensound-ukulele.mp3 in Resources */,
+				5DBED8C2278F57C80059D088 /* bensound-theelevatorbossanova.mp3 in Resources */,
+				5DBED8B2278F57B20059D088 /* bensound-beyondtheline.mp3 in Resources */,
+				5DBED8B4278F57B20059D088 /* bensound-betterdays.mp3 in Resources */,
+				5DBED8AC278F57A50059D088 /* bensound-allthat.mp3 in Resources */,
+				5DFC551A278F283200C3BF56 /* sunny.png in Resources */,
+				5D15DA3C278DFAB500D2018C /* bensound-goinghigher.mp3 in Resources */,
+				5DBED8B6278F57B80059D088 /* bensound-happiness.mp3 in Resources */,
+				5DBED8C5278F57C80059D088 /* bensound-tenderness.mp3 in Resources */,
+				5DD5B08D278F3A7C0090E9A1 /* LaunchScreen.storyboard in Resources */,
+				5D399B1A278E24790059AF78 /* goinghigher.png in Resources */,
+				5D399B22278E2A790059AF78 /* ukulele.png in Resources */,
+				5DBED8C1278F57C80059D088 /* bensound-sweet.mp3 in Resources */,
+				5D15DA43278DFAB500D2018C /* bensound-dubstep.mp3 in Resources */,
+				5D399B20278E26E80059AF78 /* face-sad-cry-regular.svg in Resources */,
+				5D15DA3B278DFAB500D2018C /* bensound-anewbeginning.mp3 in Resources */,
+				5DFC5518278E774600C3BF56 /* Brainicon.svg in Resources */,
+				5D399B1C278E250D0059AF78 /* tomorrow.png in Resources */,
+				5D15DA40278DFAB500D2018C /* bensound-jazzyfrenchy.mp3 in Resources */,
+				5D399B26278E2C930059AF78 /* face-frown-regular.svg in Resources */,
+				5D399B28278E694F0059AF78 /* brainicon.png in Resources */,
+				5D15DA39278DFAB500D2018C /* bensound-creativeminds.mp3 in Resources */,
+				5D399B24278E2B060059AF78 /* face-frown-solid.svg in Resources */,
+				5DBED8B1278F57B20059D088 /* bensound-buddy.mp3 in Resources */,
+				5D15DA3D278DFAB500D2018C /* bensound-sunny.mp3 in Resources */,
 				20F2CCEE278DE17F00128598 /* Assets.xcassets in Resources */,
+				5DFC551E278F38AC00C3BF56 /* nameandicon.png in Resources */,
+				5D15DA3E278DFAB500D2018C /* bensound-betterdays.mp3 in Resources */,
+				5D15DA42278DFAB500D2018C /* bensound-tomorrow.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +421,7 @@
 				20F2CD29278DE46400128598 /* Song.swift in Sources */,
 				20F2CCEC278DE17500128598 /* ContentView.swift in Sources */,
 				20F2CD19278DE37100128598 /* CardView.swift in Sources */,
+				5D50D6B3278DECDB0005BB41 /* MusicPlayer.swift in Sources */,
 				20F2CCEA278DE17500128598 /* MusivityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
